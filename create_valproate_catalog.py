@@ -36,9 +36,9 @@ FONT_NAME = 'Aptos'                                    # Font to be used globall
 # Constants for header strings
 HEADER_INSTRUCTIONS = "This document contains details of the datasets and scripts used to create the Valproate dashboard."
 HEADER_NAVIGATION = "Click on the sheet names below to navigate to the respective sheet."
-HEADER_DATASETS = "Datasets used in the Valproate following full dependency trace"
+HEADER_DATASETS = "Datasets used to create the Valproate Dashboard following full dependency trace"
 HEADER_SCRIPTS = "Scripts used to create each dataset in the Valproate Workflow"
-TABLEAU_HEADING = 'Tableau Calculated Fields'
+TABLEAU_HEADING = 'Tableau Calculated Fields for Valproate Dashboard'
 
 def main():
     # Ensure output folder exists
