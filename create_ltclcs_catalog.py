@@ -15,10 +15,10 @@ The output will be saved in the specified output folder as an Excel file.
 """
 
 import os
-from openpyxl import Workbook  # Import Workbook
+from openpyxl import Workbook
 from openpyxl.styles import NamedStyle, Font
 from modules.readers import read_csv_schema, read_csv_scripts, read_csv_tableau, read_additional_v_catalog, read_all_scripts
-from modules.excel_helpers import export_to_excel  # Ensure add_refresh_instructions is imported
+from modules.excel_helpers import export_to_excel
 
 # Constants for file paths and settings
 CSV_FILE_TABLES = 'input/HEI_V_CATALOG_LTCLCS.csv'     # CSV file containing the dataset schema
