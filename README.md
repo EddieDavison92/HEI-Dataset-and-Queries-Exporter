@@ -1,3 +1,4 @@
+
 # HEI Dataset and Queries Exporter
 
 This project automates the process of exporting dataset schemas and SQL scripts from CSV files into a structured Excel workbook. The generated Excel workbooks include:
@@ -11,7 +12,7 @@ This project automates the process of exporting dataset schemas and SQL scripts 
 
 - Python 3.x
 - Virtual environment (recommended)
-- Required Python packages: `pandas`, `openpyxl`
+- Required Python packages: `pandas`, `openpyxl`,` lxml,` `et-xmlfile`, `numpy`, `python-dateutil`, `pytz`, `six`, `tzdata`, `tableaudocumentapi`
 
 ## Setup
 
