@@ -1,0 +1,18 @@
+# Ignore all files in input, input/tableau, output, and venv
+input/*
+input/tableau/*
+output/*
+venv/*
+
+# Retain folder structure
+!input/
+!input/tableau/
+!output/
+!venv/
+
+# Explicitly retain the input/tableau folder
+!input/tableau/
+
+# Ignore __pycache__ directories
+__pycache__/
+modules/__pycache__/
