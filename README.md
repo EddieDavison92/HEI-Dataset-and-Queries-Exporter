@@ -47,10 +47,10 @@ This project automates the process of exporting dataset schemas and SQL scripts 
 
 The following CSV files are required in the `input` directory:
 
-- `HEI_V_CATALOG_LTCLCS.csv` (or other project-specific V_CATALOG file)
-- `HEI_LTCLCS_SCRIPTS.csv` (or other project-specific scripts file)
-- `HEI_V_CATALOG.csv` (complete Vertica catalog)
-- `HEI_ALL_SCRIPTS.csv` (all scripts file)
+- `HEI_V_CATALOG_LTCLCS.csv` (or other project-specific V_CATALOG file, obtained from scripts in the V_CATALOG collection in HEI)
+- `HEI_LTCLCS_SCRIPTS.csv` (or other project-specific scripts file, obtained from scripts in the Python Utilities collection in HEI)
+- `HEI_V_CATALOG.csv` (complete Vertica catalog, obtained from scripts in the V_CATALOG collection in HEI)
+- `HEI_ALL_SCRIPTS.csv` (all scripts file, obtained from scripts in the Python Utilities collection in HEI)
 
 Place Tableau workbooks in `.twb` format in the `input/tableau` directory.
 
