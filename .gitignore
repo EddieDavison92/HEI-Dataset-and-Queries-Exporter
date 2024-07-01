@@ -6,12 +6,13 @@ venv/*
 
 # Retain folder structure
 !input/
+!input/.gitkeep
 !input/tableau/
+!input/tableau/.gitkeep
 !output/
+!output/.gitkeep
 !venv/
-
-# Explicitly retain the input/tableau folder
-!input/tableau/
+!venv/.gitkeep
 
 # Ignore __pycache__ directories
 __pycache__/
